@@ -1,0 +1,380 @@
+body{
+    background-color: #475057;
+    height: 3000px;
+    color: aliceblue
+}
+img{
+    width: 100%;
+    height: 100%
+}
+section{
+    margin-bottom: 40px
+}
+
+@media screen and (max-width: 768px){
+    .text-sm-center{
+        text-align: center
+    }
+}
+.navbar-inverse {
+    background-color: #475057;
+    border-color: #74b016;
+    border-bottom: 4px solid #79b519;
+    margin: 0
+   
+}
+
+.navbar-nav {
+    float: right;
+   
+}
+.active,.active a {
+    background-color: #79b519 !important;
+    color: white!important;
+}
+
+
+/*start Header */
+header{
+    background: url(../image/header.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    color: white !important;
+    padding-top: 7% !important;
+    margin-bottom: 0 !important;
+     margin-top:20px !important;
+     height: calc(100vh - 70px);
+    position: relative
+         
+   
+}
+header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:rgba(71, 80, 87, 0.71); }
+
+header h1{
+    position: relative
+}
+.header-btn-1{
+    background-color: #79b519;
+    margin-bottom: 10px
+}
+.header-btn-2 {
+  width: 90px;
+  height: 90px;
+  padding: 10px 16px;
+  font-size: 14px;
+  line-height: 1.33;
+  border-radius:45px;
+  border-color: transparent;
+  margin-right: 20px;
+  background-color: #79b519
+
+
+}
+
+
+
+
+
+.header-btn-3{
+    width:125px;
+    height:125px;
+    padding:10px 16px;
+    font-size:20px;
+    line-height: 1.33;
+    border-radius: 50%;
+
+}
+.domin{
+    background-color: #79b519;
+    padding: 13px;
+    color: aliceblue
+}
+
+.domin .row span{
+    border-right: 2px solid #666;
+    padding: 5px;
+    font-size: 20px
+    
+}
+
+.domin .row .is div{
+    margin: 0;
+    padding: 0
+}
+.ofer{
+    margin-top: 30px
+}
+.ofer .content{
+    background-color: #59646a;
+    border-radius: 5px;
+    color:aliceblue;
+    padding: 4%;
+    margin: 1%;
+    
+}
+.ofer .content:hover{
+    background-color: #313a41;
+    transition: all 1s ease;
+  box-shadow: inset 3px -8px 20px 0px #888888
+}
+  
+.whats .container{
+    border: 1px solid rgba(121, 181, 25, 0.07);
+    margin-top: 20px;
+    color: aliceblue
+    
+}
+
+.whats img{
+
+    filter: grayscale(70%)
+    
+}
+.whats i{
+    color: #79b519
+}
+.whats h3 span{
+    color:  #79b519;
+    font-size: smaller;
+}
+.whats .image img{
+    border-radius: 20px;
+    margin-top: 15px
+}
+.whats .image button{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 40px
+}
+.our-plan{
+    margin-top: 50px;
+    
+}
+.our-plan h2{
+    color: aliceblue;
+    margin: 20px
+}
+
+.our-plan p{
+    color:darkgray;
+    margin: 35px
+}
+
+.our-plan .row div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all .5s ease
+}
+.our-plan .row div div{
+   
+   background-color: #59646a;
+    border-radius: 70px
+}
+
+.our-plan .row div p{
+    
+    border-bottom: 1px solid #777;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 10px;
+    
+}
+.our-plan .row div div:hover{
+    background-color:#79b519; 
+    transform:scale(1,1.05);
+    color: aliceblue
+}
+.our-plan .row div:hover button{
+    background-color: aliceblue;
+    color: #333
+}
+.our-plan .row div:hover p{
+    color: aliceblue;
+    
+}
+
+.top-service .row{
+    color: aliceblue
+}
+.top-service .row i{
+    padding: 20px;
+    border: 1px solid #777;
+    font-size: 30px
+}
+.top-service .row p{
+    padding-left: 17%;
+    color: #999
+}
+
+.top-service .row div h3,.top-service .row div p,.top-service .row div i{
+    float: left;
+    
+}
+.top-service .row div h3{
+    margin-left: 15px
+}
+
+.top-service .main{
+    overflow: hidden;
+}
+
+.top-service .main ul{
+    list-style: none;
+    background-color: #424b52;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0
+   
+}
+.top-service .main li{
+     display: inline-block;
+    padding: 10px;
+  
+   
+}
+
+.top-service .main li a{
+    color: #999;
+    text-decoration: none
+}
+
+
+.top-service .main li a:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+.top-service .main .row{
+    padding: 20px;
+}
+
+}
+.top-service .main .row p{
+    padding: 0
+}
+
+
+
+.top-service .main .content .sd{
+   display: none;
+    background-color: #777;
+  
+
+}
+
+#Graphic{
+  display: block
+}
+
+.testmonails{
+    color: aliceblue;
+    position: relative;
+    background-image: url(../image/work.jpg);
+    background-size: cover
+
+}
+.testmonails p,.testmonails h3,.testmonails h2{
+    padding-left: 20%;
+    padding-right: 20%;
+    z-index: 1;
+    position: relative
+    
+}
+
+.testmonails .overlay{
+    background-color: rgba(121, 181, 25, 0.85);
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right:0;
+    z-index: 1
+}
+.testmonails{
+    min-height: 400px
+}
+.testmonails .auto-slider div{
+    display: none
+}
+.testmonails .auto-slider img{
+    width: 150px;
+    height: 150px;
+     z-index: 1;
+    position: relative;
+    text-align: center;
+     border-radius: 50%;
+    border: 3px solid #fff
+       
+
+}
+
+
+.testmonails .auto-slider  .activee{
+   
+   display: block
+    
+    
+}
+.features div{
+    padding: 25px
+}
+.features i{
+     color: #79b519;
+     float: left
+}
+
+.features button{
+    float: left;
+   margin: 25px
+}
+.pictures .row div img{
+    
+    height:  300px
+}
+
+.pictures .row div span{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: #79b519;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px
+        
+        
+}
+.button{
+    background-color: #79b519;
+    overflow: hidden;
+    height: 60px;
+    padding: 15px
+   
+}
+.button button{
+    float: right;
+    background-color: transparent;
+    border: 1px solid #666;
+    padding: 5px 20px
+}
+footer{
+    background-image: url(../image/header.jpeg);
+    position: relative;
+    background-attachment: fixed;
+    padding: 25px
+}
+footer .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:rgba(71, 80, 87, 0.71); 
+}
+footer img{
+    width:60px;
+    height:60px
+}
